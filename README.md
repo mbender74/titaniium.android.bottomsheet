@@ -8,7 +8,7 @@ and [@chrystoffer](https://github.com/chrystoffer) for the initial Hyperloop bas
 <img src="./screenshot.jpg" width="300" alt="Example Screenshot" />
 
 ## Requirements
-- [x] Titanium SDK 7.0.0+
+- [x] Titanium SDK 8.3.0+
 
 ## Download
 - [x] [Stable release](https://github.com/hansemannn/titanium-android-bottom-sheet/releases)
