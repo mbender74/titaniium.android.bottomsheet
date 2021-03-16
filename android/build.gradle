@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+repositories {
+	google()
+	jcenter()
+	mavenCentral()
+}
+
+dependencies {
+}
+
+task getDeps(type: Copy) {
+	from sourceSets.main.runtimeClasspath
+	exclude 'support-*'
+	into 'lib/'
+}
