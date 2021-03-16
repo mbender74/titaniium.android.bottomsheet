@@ -63,7 +63,7 @@ options.show();
 ## Theme example from screenshot
 
 Put this in your /platform/android/res/values/theme.xml
-
+```
 <style name="Theme.BottomSheet" parent="Theme.AppCompat.Light.Dialog.Alert">
     <item name="android:windowBackground">@android:color/transparent</item>
     <item name="colorPrimaryDark">@color/primary_dark</item>
@@ -84,7 +84,7 @@ Put this in your /platform/android/res/values/theme.xml
     <item name="bottomSheetDimAmount">40%</item>
     <item name="android:windowAnimationStyle">@style/BottomSheetAnimation</item>
 </style>
-
+```
 
 
 
