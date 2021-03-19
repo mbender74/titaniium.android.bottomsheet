@@ -11,7 +11,7 @@ and [@chrystoffer](https://github.com/chrystoffer) for the initial Hyperloop bas
 - [x] Titanium SDK 8.3.0+
 
 ## Download
-- [x] [Stable release](https://github.com/hansemannn/titanium-android-bottom-sheet/releases)
+- [x] [Stable release](https://github.com/mbender74/titaniium.android.bottomsheet/releases/)
 
 ## API's
 
