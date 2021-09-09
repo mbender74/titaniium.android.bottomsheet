@@ -85,6 +85,10 @@ Put this in your /platform/android/res/values/theme.xml
     <item name="android:windowAnimationStyle">@style/BottomSheetAnimation</item>
 </style>
 ```
+and add this line to you apptheme style:
+  ```
+        <item name="bottomSheetTheme">@style/Theme.BottomSheet</item>
+```
 
 
 
