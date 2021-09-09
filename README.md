@@ -90,7 +90,24 @@ and add this line to you apptheme style:
         <item name="bottomSheetTheme">@style/Theme.BottomSheet</item>
 ```
 
-
+Don´t forgot to add "rounded_borders.xml" in platform/android/res/drawable-anydpi
+  ```
+  <shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="12dp" />
+    <gradient
+           android:angle="45"
+           android:endColor="#efefef"
+           android:startColor="#ffffff"
+           android:type="linear" />
+           <padding
+                   android:left="4dp"
+                   android:right="4dp"
+                   android:bottom="30dp"
+                   />
+</shape>
+```
+  
+  
 
 
 ## Build
